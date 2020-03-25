@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+p.right {
+  text-align: right;
+}
+
+div:nth-child(2n + 1) {
+  text-align: right;
+}
+
+#para3 {
+    font-family: Arial;
+    font-size: 22pt;
+}

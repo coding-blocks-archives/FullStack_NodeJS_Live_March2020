@@ -1,0 +1,9 @@
+ul ul {
+    visibility: hidden;
+    height: 0;
+}
+
+li:hover > ul {
+    visibility: visible;
+    height: auto;
+}
