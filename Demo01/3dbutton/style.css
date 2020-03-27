@@ -1,0 +1,23 @@
+div {
+    height: 70px;
+    width: 200px;
+    margin: 50px;
+    background-color: tomato;
+    color: wheat;
+    padding: 10px;
+    font-size: 26pt;
+    font-family: Arial;
+    
+    box-shadow: grey 8px 8px 5px;
+    transition: 1s;
+}
+
+div:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: grey 18px 18px 10px;
+}
+
+div:active {
+    transform: translate(5px, 5px);
+    box-shadow: grey 3px 3px 1px;
+}
