@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table#game td {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    border: solid saddlebrown 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60pt;
+}
