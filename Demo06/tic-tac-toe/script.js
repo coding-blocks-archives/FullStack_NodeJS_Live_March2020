@@ -22,7 +22,14 @@ function endGame(winner) {
 }
 
 function restartGame() {
-    
+    if (Math.random() > 0.5) game.turn = 'O'
+    else game.turn = 'X'
+
+    game.state = STARTED
+
+    Array.from(document.getElementsByTagName('td')).forEach(cell => {
+        cell.textContent = ''
+    })
 }
 
 function nextTurn() {
