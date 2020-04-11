@@ -26,7 +26,7 @@ function restartGame() {
     else game.turn = 'X'
 
     game.state = STARTED
-    move = 0
+    game.move = 0
 
     Array.from(document.getElementsByTagName('td')).forEach(cell => {
         cell.textContent = ''
