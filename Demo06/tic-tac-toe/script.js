@@ -26,6 +26,7 @@ function restartGame() {
     else game.turn = 'X'
 
     game.state = STARTED
+    move = 0
 
     Array.from(document.getElementsByTagName('td')).forEach(cell => {
         cell.textContent = ''
@@ -85,6 +86,10 @@ function isDiagCaptured(row, col) {
 
 
 function boxClicked(row, col) {
+  if (game.state === ENDED) {
+    alert('Game Ended | Restart to Play Again')
+    return
+  }
   console.log('box clicked = ', row, col)
 
   let clickedBox = gameTable.children[0].children[row - 1].children[col - 1]
