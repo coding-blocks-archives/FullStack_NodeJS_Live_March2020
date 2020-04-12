@@ -14,7 +14,7 @@
     display: inline-block;
 
     animation: bounce 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
 }
 
 .one {
