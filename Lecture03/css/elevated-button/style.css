@@ -1,0 +1,25 @@
+div.btn {
+    margin: 50px;
+    background-color: peru;
+    color: white;
+    font-size: 30pt;
+    padding: 50px;
+    width: 200px;
+
+    border-radius: 10px;
+    box-shadow: gray 10px 10px 10px;
+    transition: 0.8s;
+    
+}
+
+div.btn:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: gray 20px 20px 20px;
+    transition: 0.5s;
+}
+
+div.btn:active {
+    transform: translate(5px, 5px);
+    box-shadow: gray 5px 5px 3px;
+    transition: 0.2s;
+}
