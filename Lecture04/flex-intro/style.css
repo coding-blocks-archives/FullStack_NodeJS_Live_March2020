@@ -1,0 +1,31 @@
+.container {
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    background-color: bisque;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    /* how items within a row are aligned in order */
+    justify-content: center; 
+
+    /* align items within the row perpendicularly */
+    align-items: flex-end;
+
+    /* how all the rows together are aligned */
+    align-content: center;
+}
+
+.item {
+    border: dotted maroon 2px;
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 20pt;
+    color: white;
+
+    text-align: center;
+    line-height: 50px;
+}
