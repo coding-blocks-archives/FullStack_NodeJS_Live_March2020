@@ -1,0 +1,58 @@
+.container {
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    z-index: 1;
+
+    background-color: linen;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: dashed black 2px;
+    z-index: 3;
+
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 20pt;
+}
+/* 
+    relative: from original position
+    absolute: from parent
+ */
+.one > .three {
+    position: relative;
+    z-index: 5;
+}
+.one > .six {
+    position: relative;
+    z-index: 5;
+}
+.one > .four {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.one > .five {
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+
+.container > .two {
+    position: sticky;
+    z-index: 2;
+    top: 30px;
+    bottom: 30px;
+}
+
+.item:nth-child(5n) {
+    background-color: brown;
+}
+
+.container:nth-child(2n) {
+    background-color: aqua;
+}
