@@ -11,7 +11,7 @@
 | Shivam Singla       | http://nervous-aryabhata-ecfd43.netlify.com/      |
 | abhinav kumar       | http://gracious-noether-feb197.netlify.com/       |
 | Sahastra kishore    | http://fervent-franklin-00dab8.netlify.com/       |
-| Debayan Debnath     | http://practical-khorana-2bf50e.netlify.com/      |
+| Debayan             | https://modest-cori-024bf5.netlify.app/      |
 | Ashish Kr. Nagar   | http://jolly-williams-a51ca3.netlify.com/         |
 | Vijay Sharma        | http://cocky-wescoff-bc1e6b.netlify.com           |
 | Praveen Verma       | http://determined-goldwasser-f88f9f.netlify.com/  |
