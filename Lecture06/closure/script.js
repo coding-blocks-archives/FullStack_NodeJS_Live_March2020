@@ -21,3 +21,4 @@ let x = outer('param1', 11)
 // scope of arg1 and var1 are from lines 2 to 10
 
 x('param2')
+
