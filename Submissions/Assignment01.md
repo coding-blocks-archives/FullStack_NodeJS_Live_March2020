@@ -29,7 +29,7 @@
 |Deepak Gupta         |http://optimistic-fermi-b524ef.netlify.com     |
 |Saransh Mehra        |http://laughing-colden-a5e50a.netlify.com      |
 |krishna devaki       |http://fervent-keller-3915dd.netlify.com/      |
-|Debayan Debnath      |http://zen-jepsen-37bbc5.netlify.com/          |
+|Debayan              |https://nifty-noether-fbf105.netlify.app/          |
 |armaan khan          |http://awesome-varahamihira-f9d7e9.netlify.com/|
 |Aakash Rana          |https://elegant-raman-fbd04b.netlify.com       |
 |Pooja Gera           |festive-bardeen-cfa646.netlify.com             |
