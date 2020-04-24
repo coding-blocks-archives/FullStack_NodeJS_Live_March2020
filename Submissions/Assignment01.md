@@ -22,7 +22,7 @@
 |Ashish Nagar         |https://stupefied-hugle-7ac908.netlify.com/    |
 |Prajwal Kakkar       |https://festive-agnesi-7e437e.netlify.com/     |
 |AMAN KAUSHIK         |http://epic-austin-ad7ee7.netlify.com          |
-|Abu Musaddiq Zamani  |http://confident-engelbart-409649.netlify.com/ |
+|Abu Musaddiq Zamani  |https://relaxed-wright-3401a6.netlify.app/     |
 |Sarthak Varmani      |http://elated-ardinghelli-affe5c.netlify.com/  |
 |Nakul gupta          |http://relaxed-brattain-4cabc2.netlify.com/    |
 |Aadhar Bhatnagar     |byaadhar.netlify.com                           |
