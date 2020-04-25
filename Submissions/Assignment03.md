@@ -12,7 +12,7 @@
 | Yogesh Patwa        | https://flamboyant-albattani-fffd0b.netlify.app/ | https://festive-clarke-1993f8.netlify.app/          |
 | Raghav Agarwal      | https://thirsty-beaver-ff9734.netlify.app/       | https://trusting-noether-6bb5fe.netlify.app/        |
 | Syed Shoaib Zaidi   | https://loving-varahamihira-822d7c.netlify.app/  | https://infallible-elion-3ce954.netlify.app/        |
-| Abu Musaddiq Zamani | https://app.netlify.com/teams/amzamani/sites       | https://festive-boyd-673992.netlify.app/            |
+| Abu Musaddiq Zamani | https://silly-hugle-7b177a.netlify.app/          | https://festive-boyd-673992.netlify.app/            |
 | Praveen Verma       | https://affectionate-curie-8c4393.netlify.app/   | https://cocky-swirles-841851.netlify.app/           |
 | Pooja Gera          | https://competent-raman-014cfc.netlify.app/      | https://sad-kirch-67d624.netlify.app/               |
 | Varun               | https://stoic-pike-741cda.netlify.app/           | https://reverent-noyce-263abc.netlify.app/          |
