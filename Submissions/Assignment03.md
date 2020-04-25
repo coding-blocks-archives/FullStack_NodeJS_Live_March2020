@@ -22,4 +22,4 @@
 | Deepak Gupta        | https://blissful-jang-7991d0.netlify.app         | https://unruffled-roentgen-b3c09e.netlify.app       |
 | Manish V            | https://suspicious-johnson-0dca12.netlify.app/   | https://laughing-hermann-a6b5dd.netlify.app/        |
 | Aadhar Bhatnagar    | https://devaadharcv.netlify.app/                   | https://theschoolofcomics.netlify.com/                |
-
+| Debayan             | https://objective-bhabha-9dc2a9.netlify.app/     |
