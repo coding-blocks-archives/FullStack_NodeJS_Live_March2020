@@ -6,3 +6,6 @@ console.log(lib2)
 
 console.log(lib1.lib2)
 console.log(lib2.lib1)
+
+console.log(lib1.lib2.lib1)
+console.log(lib2.lib1.lib2)
