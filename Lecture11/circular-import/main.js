@@ -1,4 +1,4 @@
-const lib1 = equire('./lib1.js')
+const lib1 = require('./lib1.js')
 const lib2 = require('./lib2.js')
 
 console.log(lib1)
