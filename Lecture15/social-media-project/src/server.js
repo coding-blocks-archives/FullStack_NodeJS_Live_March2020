@@ -12,7 +12,7 @@ app.use('/api/users', usersRoute)
 app.use('/api/posts', postsRoute)
 app.use('/', express.static(__dirname + '/public'))
 
-db.sync()
+db.sync({force: true})
   .then(() => {
     app.listen(8383, () => {
       console.log('server started on http://localhost:8383')
