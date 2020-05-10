@@ -33,7 +33,7 @@ src
 ```shell
 src/public
 ├── app                                     # our own frontend js code
-│   └── cbsocial-common.js
+│   └── common.js
 ├── components                              # own own html snippets
 │   └── navbar.html
 ├── css                                     # css libraries we are using
