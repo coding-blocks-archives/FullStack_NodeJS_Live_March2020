@@ -1,6 +1,7 @@
 #navbar {
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 #footer {
   padding-bottom: 0.5rem;
@@ -11,5 +12,4 @@
 }
 
 #content {
-  height: 2000px;
 }
