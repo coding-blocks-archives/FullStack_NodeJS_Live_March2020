@@ -9,8 +9,12 @@ const io = socketio(server)
 app.use('/', express.static(__dirname + '/public'))
 
 io.on('connection', (socket) => {
-  
+
   console.log('connection', socket.id)
+
+  socket.on('colorit', (data) => {
+    io.emit('colorit', data)
+  })
   
 })
 
