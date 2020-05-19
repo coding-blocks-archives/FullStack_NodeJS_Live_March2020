@@ -4,7 +4,6 @@ const app = express()
 
 app.set('view engine', 'hbs')
 
-let count = 0
 
 app.use(expressSession({
   resave: true, // saves the cookie  on each client <-> communication
@@ -13,8 +12,12 @@ app.use(expressSession({
 }))
 
 app.get('/', (req, res) => {
-  count++
-  res.render('index', { count })
+  console.log(req.session)
+  
+  if (!req.session.visits) req.session.visits = 1
+  else req.session.visits++
+
+  res.render('index', { count: +(req.session.visits) })
 })
 
 app.listen(9876, () => {
