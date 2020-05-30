@@ -1,6 +1,7 @@
 const express = require('express')
 const session = require('express-session')
 const multer = require('multer')
+const fs = require('fs').promises
 
 
 const { db, Users } = require('./db')
@@ -18,6 +19,8 @@ app.use(session({
   secret: '24knb6k247b2k7b2k7bk247hb2kh7b2',
 }))
 
+app.use('/images', express.static(__dirname + '/images'))
+
 app.get('/signup', (req, res) => {
   res.render('signup')
 })
@@ -27,10 +30,16 @@ app.post('/signup', upload.single('avatar'), async (req, res) => {
   console.log('req.body', req.body)
   console.log('req.file', req.file)
 
+  const oldPath = __dirname + '/uploads/' + req.file.filename
+  const newPath = __dirname + '/images/' + 'avatar_' + req.body.username + '.' + req.file.mimetype.split('/').pop()
+
+  await fs.rename(oldPath, newPath)        
+
   const user = await Users.create({
     username: req.body.username,
     password: req.body.password, // NOTE: in production we save hash of password
-    email: req.body.email
+    email: req.body.email,
+    avatar: '/images/' + 'avatar_' + req.body.username + '.' + req.file.mimetype.split('/').pop()
   })
 
   res.status(201).send(`User ${user.id} created`)
