@@ -1,5 +1,6 @@
 const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
+const OneauthStrategy = require('passport-oneauth').Strategy
 const { Users } = require('./models')
 
 passport.use(
@@ -29,6 +30,14 @@ passport.use(
     }
   })
 )
+
+passport.use(new OneauthStrategy({
+    clientID: "6371590771",
+    clientSecret: "coVHoy5dIP5ANklXHzL5kDVwG0rceoEm8EMMfv8ZizxLnK7vVXDQrsqWfF15bqrl",
+    callbackURL: "http://localhost:2222/login/cb/callback",
+}, function (accessToken, refreshToken, profile, done) {
+  console.log(profile)
+}))
 
 passport.serializeUser (function (user, done) {
   console.log(user)
