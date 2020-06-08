@@ -2,6 +2,8 @@ const express = require('express')
 const session = require('express-session')
 
 const { db, Users } = require('./models')
+const { passport } = require('./passport-setup') // ✅
+// const passport = require('passport') ❌
 
 const app = express()
 
@@ -14,6 +16,9 @@ app.use(session({
   saveUninitialized: true,
   secret: '24knb6k247b2k7b2k7bk247hb2kh7b2',
 }))
+
+app.use(passport.initialize())
+app.use(passport.session())
 
 app.get('/signup', (req, res) => {
   res.render('signup')
@@ -33,10 +38,16 @@ app.get('/login', (req, res) => {
   res.render('login')
 })
 
-app.post('/login' /* TODO */)
+app.post(
+  '/login', 
+  passport.authenticate('local', {
+    successRedirect: '/profile',
+    failureRedirect: '/login'
+  })
+)
 
 app.get('/profile', async (req, res) => {
-  const user = // TODO
+  const user = req.user
   res.render('profile', { user })
 })
 
